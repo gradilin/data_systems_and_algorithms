@@ -168,9 +168,6 @@ class LinkedList:
         return temp.value
     
     def reverse(self): 
-        # checking for empty list 
-        if self.length == 0: 
-            return True
         # setting temp to hold original beginning of list 
         temp = self.head 
         # reversing head an tail 
