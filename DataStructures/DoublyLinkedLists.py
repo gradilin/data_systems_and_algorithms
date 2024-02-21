@@ -134,7 +134,14 @@ class DoublyLinkedList:
         return True 
 
 
-    
+    def swap_first_last(self): 
+        if self.length <= 1: 
+            return True
+        #temp = self.head.value  
+        #self.head.value = self.tail.value
+        #self.tail.value = temp 
+        self.head.value, self.tail.value = self.tail.value, self.head.value
+        return True  
 
 
 
