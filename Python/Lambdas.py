@@ -50,14 +50,14 @@ print(config_list)
      
 
 
-# def filter_even_numbers(numbers):
-#     # Filter even numbers from the input list
-#     even_numbers = filter(lambda x: x % 2 == 0, numbers)
-#     return list(even_numbers)
+def filter_even_numbers(numbers):
+    # Filter even numbers from the input list
+    even_numbers = filter(lambda x: x % 2 == 0, numbers)
+    return list(even_numbers)
 
-# # Example usage
-# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# print(filter_even_numbers(numbers))  # Output: [2, 4, 6, 8]
+# Example usage
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(filter_even_numbers(numbers))  # Output: [2, 4, 6, 8]
 
 # def square_numbers(numbers):
 #     # Square each number in the input list
